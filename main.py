@@ -14,7 +14,7 @@ def main():
             if event.type == pygame.QUIT:
                 return
         screen.fill("black")
-        display.flip()
+        pygame.display.flip()
 
 
     print("Starting Asteroids!")
